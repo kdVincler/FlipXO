@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "FlipXO",
-    "slug": "FlipXO",
+    "slug": "flipxo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./app/assets/icon.png",
@@ -22,6 +22,12 @@
     },
     "web": {
       "favicon": "./app/assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0627bedf-b423-41e0-b695-370e29d07793"
+      }
+    },
+    "owner": "kdvincler"
   }
 }
