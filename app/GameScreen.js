@@ -108,7 +108,7 @@ function GameScreen() {
     Alert.alert("Reset game?", "Click 'Reset' to restart the game", [
       { text: "Cancel", style: "cancel" },
       {
-        text: "OK",
+        text: "Reset",
         style: "destructive",
         onPress: () => {
           // reset round counter and board variables
